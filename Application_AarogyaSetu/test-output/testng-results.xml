@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-01T18:13:11 IST" name="Suite" finished-at="2022-02-01T18:15:57 IST" duration-ms="165951">
+    <groups>
+    </groups>
+    <test started-at="2022-02-01T18:13:11 IST" name="ChromeTest" finished-at="2022-02-01T18:14:25 IST" duration-ms="74235">
+      <class name="Test.pack.VerifyMediaTabs">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:Test.pack.VerifyMediaTabs@4b45a2f5]" started-at="2022-02-01T18:13:11 IST" name="launchBrowser" finished-at="2022-02-01T18:13:19 IST" duration-ms="8105" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="initializePomClasses()[pri:0, instance:Test.pack.VerifyMediaTabs@4b45a2f5]" started-at="2022-02-01T18:13:19 IST" name="initializePomClasses" finished-at="2022-02-01T18:13:19 IST" duration-ms="395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePomClasses -->
+        <test-method is-config="true" signature="aarogyaSetuSite()[pri:0, instance:Test.pack.VerifyMediaTabs@4b45a2f5]" started-at="2022-02-01T18:13:19 IST" name="aarogyaSetuSite" finished-at="2022-02-01T18:14:03 IST" duration-ms="44117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aarogyaSetuSite -->
+        <test-method signature="toVerifyAarogyaSetuSite()[pri:1, instance:Test.pack.VerifyMediaTabs@4b45a2f5]" started-at="2022-02-01T18:14:03 IST" name="toVerifyAarogyaSetuSite" finished-at="2022-02-01T18:14:04 IST" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyAarogyaSetuSite -->
+        <test-method is-config="true" signature="endVerifyTest(org.testng.ITestResult)[pri:0, instance:Test.pack.VerifyMediaTabs@4b45a2f5]" started-at="2022-02-01T18:14:04 IST" name="endVerifyTest" finished-at="2022-02-01T18:14:04 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyAarogyaSetuSite status=SUCCESS method=VerifyMediaTabs.toVerifyAarogyaSetuSite()[pri:1, instance:Test.pack.VerifyMediaTabs@4b45a2f5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endVerifyTest -->
+        <test-method is-config="true" signature="aarogyaSetuSite()[pri:0, instance:Test.pack.VerifyMediaTabs@4b45a2f5]" started-at="2022-02-01T18:14:04 IST" name="aarogyaSetuSite" finished-at="2022-02-01T18:14:22 IST" duration-ms="18685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aarogyaSetuSite -->
+        <test-method signature="toVerifyMedia()[pri:2, instance:Test.pack.VerifyMediaTabs@4b45a2f5]" started-at="2022-02-01T18:14:22 IST" name="toVerifyMedia" finished-at="2022-02-01T18:14:23 IST" duration-ms="984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyMedia -->
+        <test-method is-config="true" signature="endVerifyTest(org.testng.ITestResult)[pri:0, instance:Test.pack.VerifyMediaTabs@4b45a2f5]" started-at="2022-02-01T18:14:23 IST" name="endVerifyTest" finished-at="2022-02-01T18:14:23 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyMedia status=SUCCESS method=VerifyMediaTabs.toVerifyMedia()[pri:2, instance:Test.pack.VerifyMediaTabs@4b45a2f5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endVerifyTest -->
+        <test-method is-config="true" signature="closeObject()[pri:0, instance:Test.pack.VerifyMediaTabs@4b45a2f5]" started-at="2022-02-01T18:14:23 IST" name="closeObject" finished-at="2022-02-01T18:14:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeObject -->
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:Test.pack.VerifyMediaTabs@4b45a2f5]" started-at="2022-02-01T18:14:23 IST" name="closedBrowser" finished-at="2022-02-01T18:14:25 IST" duration-ms="1717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+      </class> <!-- Test.pack.VerifyMediaTabs -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2022-02-01T18:14:25 IST" name="FirefoxTest" finished-at="2022-02-01T18:15:57 IST" duration-ms="91447">
+      <class name="Test.pack.VerifyMediaTabs">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:Test.pack.VerifyMediaTabs@202b0582]" started-at="2022-02-01T18:14:25 IST" name="launchBrowser" finished-at="2022-02-01T18:15:06 IST" duration-ms="40654" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="initializePomClasses()[pri:0, instance:Test.pack.VerifyMediaTabs@202b0582]" started-at="2022-02-01T18:15:06 IST" name="initializePomClasses" finished-at="2022-02-01T18:15:06 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePomClasses -->
+        <test-method is-config="true" signature="aarogyaSetuSite()[pri:0, instance:Test.pack.VerifyMediaTabs@202b0582]" started-at="2022-02-01T18:15:06 IST" name="aarogyaSetuSite" finished-at="2022-02-01T18:15:31 IST" duration-ms="25188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aarogyaSetuSite -->
+        <test-method signature="toVerifyAarogyaSetuSite()[pri:1, instance:Test.pack.VerifyMediaTabs@202b0582]" started-at="2022-02-01T18:15:31 IST" name="toVerifyAarogyaSetuSite" finished-at="2022-02-01T18:15:31 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyAarogyaSetuSite -->
+        <test-method is-config="true" signature="endVerifyTest(org.testng.ITestResult)[pri:0, instance:Test.pack.VerifyMediaTabs@202b0582]" started-at="2022-02-01T18:15:31 IST" name="endVerifyTest" finished-at="2022-02-01T18:15:31 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyAarogyaSetuSite status=SUCCESS method=VerifyMediaTabs.toVerifyAarogyaSetuSite()[pri:1, instance:Test.pack.VerifyMediaTabs@202b0582] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endVerifyTest -->
+        <test-method is-config="true" signature="aarogyaSetuSite()[pri:0, instance:Test.pack.VerifyMediaTabs@202b0582]" started-at="2022-02-01T18:15:31 IST" name="aarogyaSetuSite" finished-at="2022-02-01T18:15:45 IST" duration-ms="14220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aarogyaSetuSite -->
+        <test-method signature="toVerifyMedia()[pri:2, instance:Test.pack.VerifyMediaTabs@202b0582]" started-at="2022-02-01T18:15:45 IST" name="toVerifyMedia" finished-at="2022-02-01T18:15:51 IST" duration-ms="5879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyMedia -->
+        <test-method is-config="true" signature="endVerifyTest(org.testng.ITestResult)[pri:0, instance:Test.pack.VerifyMediaTabs@202b0582]" started-at="2022-02-01T18:15:51 IST" name="endVerifyTest" finished-at="2022-02-01T18:15:51 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyMedia status=SUCCESS method=VerifyMediaTabs.toVerifyMedia()[pri:2, instance:Test.pack.VerifyMediaTabs@202b0582] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endVerifyTest -->
+        <test-method is-config="true" signature="closeObject()[pri:0, instance:Test.pack.VerifyMediaTabs@202b0582]" started-at="2022-02-01T18:15:51 IST" name="closeObject" finished-at="2022-02-01T18:15:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeObject -->
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:Test.pack.VerifyMediaTabs@202b0582]" started-at="2022-02-01T18:15:51 IST" name="closedBrowser" finished-at="2022-02-01T18:15:57 IST" duration-ms="5457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+      </class> <!-- Test.pack.VerifyMediaTabs -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
